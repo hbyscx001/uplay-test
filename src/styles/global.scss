@@ -1,0 +1,31 @@
+html {
+  height: 100vh;
+
+  body {
+    height: 100vh;
+    margin: unset;
+
+    #root {
+      height: 100vh;
+
+      .body-container {
+        height: 100vh;
+
+        .detail-main-empty {
+          height: calc(100vh - 56px);
+          padding: 16px;
+          background-image: url("../images/Ubisoft_2017.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 50%;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+.login-avatar {
+  margin-left: auto;
+}
